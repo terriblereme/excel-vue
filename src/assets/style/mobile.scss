@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    outline: none;
+    box-sizing: border-box;
+  }
+
+  .con-main{
+      padding: 6.6667vw 4vw;
+  }
+  .bangs-bg{
+      background-image: url("../img/mobile1.png");
+      background-position: top;
+      background-size: 100% auto;
+  }
+  .main-form{
+      background-color: #fff;
+      padding: 5.3333vw;
+      border-radius: 1.3333vw;
+  }
+  .el-form--label-top .el-form-item__label{
+      padding: 0;
+  }
+  .el-form-item{
+      margin-bottom: 1.3333vw;
+  }
+  .bottom-btn{
+      text-align: center;
+      margin-top: 7.0667vw;
+      .el-button{
+          width: 65.0667vw;
+      }
+  }
+// 手机官网
+.header{
+    display: flex;
+    background-color: #fff;
+    padding-left: 6vw;
+    color: #053D74;
+    img{
+        width: 8.8vw;
+        height: 9.0667vw;
+    }
+    span{
+        padding:2vw;
+        font-size:2.4vw;
+        p:first-child{
+            font-weight: bold;
+            font-size: 3.7333vw;
+        }
+    }
+}
+.adv-top {
+    width: 100%;
+    height: 58vw;
+    background-position: 30% center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+  }
+.container{
+    padding: 2.6667vw;
+    background-color: #F6F6F6;
+    color: #333333;
+}
+  .title-en {
+    color: #000000;
+    font-size: 4vw;
+    text-align: center;
+    letter-spacing: 0.3646vw;
+    margin-top: 2.6042vw;
+    label {
+      color: #007bff;
+    }
+  }
+  .title-line {
+    margin: 0 auto;
+    width: 46.6667vw;
+    text-align: center;
+    font-size: 2.4vw;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.6667vw;
+    hr {
+      border:0.0521vw solid #c8c8c8;
+      width: 30%;
+    }
+    span {
+      width: 40%;
+      color: #666666;
+      font-size: 0.9375vw;
+    }
+  }
+  .nav{
+      background-color: #fff;
+      padding: 3.3333vw;
+  }
+
+  .ellipsis{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  // 上传图片
+.avatar-uploader .el-upload {
+  width: 100%;
+  border: 0.0521vw solid var(--el-border-color-base);
+  border-radius: 0.3125vw;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  color: #409eff;
+  .avatar-else{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .avatar-uploader-icon{
+      margin-right: 1.3333vw;
+    }
+  }
+}
+
+

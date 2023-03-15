@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  box-sizing: border-box;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+//后端列表搜索框
+.el-menu {
+  background-color: transparent;
+}
+.el-sub-menu__title,
+.el-menu-item {
+  font-size: 22px;
+}
+.el-menu-item.is-active {
+  background-color: #409EFF;
+  color: #fff;
+}
+.top-bread {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 1.0417vw;
+  .top-line {
+    width: 0.3125vw;
+    background-color: #409eff;
+  }
+  .top-title {
+    padding-left: 0.4167vw;
+    font-size: 20px;
+    font-weight: 500;
+    color: #3a9afe;
+  }
+}
+.table-main{
+  border-radius: 0.4167vw;
+  padding: 1.0417vw;
+  background-color: #fff;
+}
+.search-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.0417vw;
+  .search-form {
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    .el-form--inline .el-form-item{
+      margin-right: 0;
+      margin-left: 0.5208vw;
+      margin-bottom: 0;
+      padding-bottom: 0.5208vw;
+      .el-form-item__content{
+        height: 40px;
+      }
+    }
+  }
+}
+.el-dialog .el-form-item__label {
+  width: 7.8125vw;
+}
+// 页码
+.page-div {
+  text-align: center;
+  margin-top: 1.0417vw;
+}
+// 上传图片
+.avatar-uploader .el-upload {
+  border: 0.0521vw dashed #666;
+  border-radius: 0.3125vw;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.avatar-uploader .el-upload:hover {
+  border-color: #409eff;
+}
+.avatar-uploader-icon {
+  font-size: 1.4583vw;
+  color: #8c939d;
+  width: 9.2708vw;
+  height: 9.2708vw;
+  text-align: center;
+}
+.avatar-uploader-icon svg {
+  margin-top: 3.8542vw; /* (178px - 28px) / 2 - 1px */
+}
